@@ -198,6 +198,7 @@ const Editor: React.FC = () => {
                              <div className="relative flex-grow">
                                 <ImageIcon className="absolute left-3 top-2.5 text-slate-400" size={16}/>
                                 <input 
+                                   aria-label="Title"
                                     type="text" 
                                     value={coverImage}
                                     onChange={(e) => setCoverImage(e.target.value)}
